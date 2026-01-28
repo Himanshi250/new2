@@ -1,5 +1,8 @@
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
+def add(a, b):
+    return a + b
 
-sum = a + b
-print("Sum is:", sum)
+
+if __name__ == "__main__":
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
+    print("Sum =", add(a, b))
